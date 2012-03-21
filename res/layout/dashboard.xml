@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#000">
+
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/LinearLayout02"
+		android:orientation="horizontal" android:layout_weight="0.85">
+		<TextView android:id="@+id/TextView01" android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:background="#999"
+			android:textColor="#FFF" android:gravity="center_vertical|center|clip_horizontal"
+			android:paddingTop="3dp" android:paddingBottom="3dp"
+			android:textStyle="bold" android:text="@string/labelCurrentEstimates"
+			android:textSize="18dp"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/LinearLayout01"
+		android:orientation="horizontal" android:layout_weight="0.60">
+
+		<LinearLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:id="@+id/LinearLayout01"
+			android:orientation="vertical" android:layout_weight="0.33"
+			android:background="@drawable/my_border">
+			<TextView android:gravity="bottom|center_horizontal"
+				android:layout_weight="0.6" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:typeface="serif"
+				android:textStyle="bold" android:textSize="17dp"
+				android:text="@string/labelEstimatedTime" android:textColor="#CCC"></TextView>
+			<TextView android:typeface="normal" android:layout_width="fill_parent"
+				android:textStyle="bold" android:textColor="#FFF" android:id="@+id/valueEstimatedTime"
+				android:gravity="center_vertical|center_horizontal"
+				android:layout_height="wrap_content" android:textSize="24dp"
+				android:text="00:00:00" android:layout_weight="0.3"
+				android:paddingTop="3dp" android:paddingBottom="2dp"></TextView>
+			<TextView android:gravity="center" android:layout_weight="0.1"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textStyle="bold" android:text="@string/labelHrs"
+				android:typeface="normal" android:textColor="#FFF"
+				android:paddingBottom="10dp"></TextView>
+		</LinearLayout>
+
+		<LinearLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:id="@+id/LinearLayout01"
+			android:orientation="vertical" android:layout_weight="0.33"
+			android:background="@drawable/my_border">
+			<TextView android:gravity="bottom|center_horizontal"
+				android:layout_weight="0.6" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:typeface="serif"
+				android:textStyle="bold" android:textSize="17dp"
+				android:text="@string/labelEstimatedDistance" android:textColor="#CCC"></TextView>
+			<TextView android:typeface="normal" android:layout_width="fill_parent"
+				android:textStyle="bold" android:textColor="#FFF"
+				android:id="@+id/valueEstimatedDistance" android:gravity="center_vertical|center_horizontal"
+				android:layout_height="wrap_content" android:textSize="30dp"
+				android:layout_weight="0.3" android:text="12.34"></TextView>
+			<TextView android:gravity="center" android:layout_weight="0.1"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textStyle="bold" android:textColor="#FFF" android:typeface="normal"
+				android:text="@string/labelKms" android:paddingBottom="10dp"></TextView>
+		</LinearLayout>
+
+		<LinearLayout android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:id="@+id/LinearLayout01"
+			android:orientation="vertical" android:layout_weight="0.33"
+			android:background="@drawable/my_border">
+			<TextView android:gravity="bottom|center_horizontal"
+				android:layout_weight="0.6" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:typeface="serif"
+				android:textStyle="bold" android:textSize="17dp"
+				android:text="@string/labelEstimatedAverageSpeed" android:textColor="#CCC"></TextView>
+			<TextView android:typeface="normal" android:layout_weight="0.3"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textStyle="bold" android:textColor="#FFF"
+				android:id="@+id/valueEstimatedAverageSpeed" android:gravity="center_vertical|center_horizontal"
+				android:textSize="30dp" android:text="90.00"></TextView>
+			<TextView android:gravity="center" android:layout_weight="0.1"
+				android:layout_height="wrap_content" android:layout_width="fill_parent"
+				android:textStyle="bold" android:textColor="#FFF" android:typeface="normal"
+				android:text="@string/labelKmph" android:paddingBottom="10dp"></TextView>
+		</LinearLayout>
+
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/LinearLayout02"
+		android:orientation="horizontal" android:layout_weight="0.85">
+		<TextView android:id="@+id/TextView01" android:layout_height="fill_parent"
+			android:layout_width="fill_parent" android:background="#999"
+			android:textColor="#FFF" android:gravity="center_vertical|center|clip_horizontal"
+			android:paddingTop="3dp" android:paddingBottom="3dp"
+			android:textStyle="bold" android:text="@string/labelRoadsAhead"
+			android:textSize="18dp"></TextView>
+	</LinearLayout>
+
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/LinearLayout03"
+		android:orientation="horizontal" android:layout_weight="0.45">
+		<ListView android:id="@+id/android:list"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:divider="#333" android:dividerHeight="2px" />
+	</LinearLayout>
+
+
+</LinearLayout>

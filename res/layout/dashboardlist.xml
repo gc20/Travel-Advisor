@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:background="@drawable/list_item_selector">
+	<TextView android:id="@+id/dashboardList1"
+		android:layout_height="32dp" android:layout_width="fill_parent"
+		android:text="@string/labelRoadsAhead" android:textColor="#FFF"
+		android:gravity="left|center" android:paddingTop="3dp"
+		android:paddingBottom="2dp" android:textSize="18dp"></TextView>
+	<TextView android:id="@+id/dashboardList2"
+		android:layout_height="18dp" android:layout_width="fill_parent"
+		android:text="@string/labelRoadsAhead" android:textColor="#BBB"
+		android:gravity="left|center" android:textSize="12dp"></TextView>
+</LinearLayout>

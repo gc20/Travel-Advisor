@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="routeDestination">Zoom to Destination</string>
+	<string name="routeOrigin">Zoom to Origin</string>
+	<string name="routeOverview">Route Overview</string>
+	<string name="currentLocation">Current Location</string>
+	<string name="warningMessage">WARNING: Please exercise caution when using this
+		application. Do not adjust the device while driving. Pay attention to
+		the road at all times.\n\nTIP: Enter \"here\" for current location as
+		origin or destination.</string>
+	<string name="labelCurrentEstimates">CURRENT ROUTE ESTIMATES</string>
+	<string name="labelRoadsAhead">ROADS AHEAD</string>
+	<string name="destinationLabel">DESTINATION</string>
+	<string name="labelDistance">DISTANCE</string>
+	<string name="labelCongestion">CONGESTION</string>
+	<string name="originLabel">ORIGIN</string>
+	<string name="app_name">Travel Advisor</string>
+	<string name="buttonProceed">Proceed</string>
+	<string name="labelEstimatedTime">Time</string>
+	<string name="labelEstimatedDistance">Distance</string>
+	<string name="labelEstimatedAverageSpeed">Avg. Speed</string>
+	<string name="labelHrs">HH:MM:SS</string>
+	<string name="labelKms">Kms</string>
+	<string name="labelKmph">Kmph</string>
+	<string name="titlePrefs">Preferences</string>
+	<string name="titleWelcome">Welcome</string>
+	<string name="titleDashboard">Dashboard</string>
+	<string name="titleDetails">Details</string>
+	<string name="titleMap">Route Map</string>
+	<string name="titleAlerts">Alerts</string>
+	<string name="sensorServiceStart">Start Sensors</string>
+	<string name="sensorServiceStop">Stop Sensors</string>
+	<string name="refreshData">Refresh</string>
+	<string name="defaultOrigin">Newton MRT</string>
+	<string name="defaultDestination">515 Serangoon Road</string>
+	<string name="mapKey">09Hud_vRiNkz0aTe0R-iWjb10rZ8DmP7Kf3Ekfg</string>
+
+	<string name="buttonProceedMap">Map</string>
+	<string name="buttonProceedGPS">GPS</string>
+	<string name="accelFrequencySummary">Frequency of Logging of Accelerometer Values
+	</string>
+	<string name="accelFrequency">Accelerometer Frequency</string>
+	<string name="locationFrequencySummary">Frequency of Logging of Location Coordinates
+	</string>
+	<string name="locationFrequency">Location Frequency</string>
+	<string name="refreshFrequencySummary">Frequency of Data Refresh
+	</string>
+	<string name="refreshFrequency">Refresh Frequency</string>
+	<string name="usernameSummary">Please Enter Your Username</string>
+	<string name="username">Username</string>
+	<string name="activeOriginSummary">Update Data with Current Location as Origin instead of Entered Origin Location</string>
+	<string name="activeOrigin">Active Origin</string>
+	<string name="settings">Settings</string>
+	<string name="accelSummary">Turn Accelerometer On or Off</string>
+	<string name="accel">Accelerometer Status</string>
+	<string name="buttonProceedAccel">Accelerometer</string>
+	<string-array name="listRefreshFrequency">
+		<item>5 Seconds</item>
+		<item>15 Seconds</item>
+		<item>30 Seconds</item>
+		<item>45 Seconds</item>
+		<item>1 Minute</item>
+		<item>2 Minutes</item>
+		<item>3 Minutes</item>
+		<item>5 Minutes</item>
+		<item>10 Minutes</item>
+	</string-array>
+
+	<string-array name="listSensorFrequency">
+		<item>5 Seconds</item>
+		<item>15 Seconds</item>
+		<item>30 Seconds</item>
+		<item>45 Seconds</item>
+		<item>1 Minute</item>
+		<item>2 Minutes</item>
+	</string-array>
+
+</resources>

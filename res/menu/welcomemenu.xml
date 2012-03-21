@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@android:drawable/ic_media_play"
+		android:title="@string/sensorServiceStart" android:id="@+id/sensorServiceStart"></item>
+	<item android:icon="@android:drawable/ic_media_pause"
+		android:title="@string/sensorServiceStop" android:id="@+id/sensorServiceStop"></item>
+	<item android:id="@+id/setting" android:title="@string/settings"
+		android:icon="@android:drawable/ic_menu_preferences"></item>
+</menu>

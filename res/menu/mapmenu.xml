@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/currentLocation" android:title="@string/currentLocation"></item>
+	<item android:id="@+id/routeOverview" android:title="@string/routeOverview"></item>
+	<item android:id="@+id/routeOrigin" android:title="@string/routeOrigin"></item>
+	<item android:id="@+id/routeDestination" android:title="@string/routeDestination"></item>
+	<item android:icon="@drawable/ic_menu_refresh" android:id="@+id/refresh"
+		android:title="@string/refreshData"></item>
+	<item android:id="@+id/setting" android:title="@string/settings"
+		android:icon="@android:drawable/ic_menu_preferences"></item>
+	<item android:icon="@android:drawable/ic_media_play"
+		android:title="@string/sensorServiceStart" android:id="@+id/sensorServiceStart"></item>
+	<item android:icon="@android:drawable/ic_media_pause"
+		android:title="@string/sensorServiceStop" android:id="@+id/sensorServiceStop"></item>
+</menu>
